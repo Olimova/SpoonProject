@@ -1,0 +1,16 @@
+.template{
+    padding: 120px;
+    &-wrapper{
+        &-body__text{
+            display: flex;
+            max-width: 507px;
+            width: 100%;
+            
+                p:last-child {
+            
+                    color: gray;
+                }
+        }
+        
+    }
+}

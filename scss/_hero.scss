@@ -1,0 +1,35 @@
+.hero {
+    color: white;
+    background: url("../assets/img/hero.png") no-repeat center/cover;
+    width: 100%;
+    position: relative;
+    padding-top: 90px;
+    &-body__title{
+        width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 120px 200px;
+            h1{
+                font-size: 71px;
+            }
+            p{
+                margin: 30px 0;
+                font-family: "IBM Plex Mono", monospace;
+                font-size: 13px;
+
+            }
+            button{
+                margin-top: 30px;
+                border: none;
+                background-color: #5AB963;
+                padding: 15px 30px;
+                color: white;
+                font-stretch: expanded;
+                text-transform: capitalize;
+                border-radius: 4px;
+            }
+    }
+}
