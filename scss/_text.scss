@@ -1,0 +1,43 @@
+.text{
+
+    &__dec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 115px 0;
+        padding: 0 58px 24px 17px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 24px;
+        font-family: "Libre Franklin", sans-serif;
+        max-width: 507px;
+        width: 100%;
+        margin: 0 0 5px 10px;
+        font-family: "Libre Franklin", sans-serif;
+        line-height: 36px;
+    }
+    
+    span {
+        color: gray;
+    }
+    button{
+            padding: 20px 5px;
+            border: 2px solid white;
+            background-color: rgba(158, 173, 186, 0);
+            color: green;
+            border-radius: 5px;
+            transition: 0.5s;
+            text-transform: uppercase;
+            
+        
+            &:hover {
+                border: none;
+                background: rgba(255, 255, 255, 0);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+    }
+    }

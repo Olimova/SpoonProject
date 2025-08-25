@@ -1,16 +1,44 @@
 .template{
     padding: 120px;
-    &-wrapper{
-        &-body__text{
-            display: flex;
+    
+        &-body{
+            &__text {
+                    display: flex;
+                    max-width: 507px;
+                    width: 100%;
+                }
+                p{
+            font-size: 24px;
+            font-family: "Libre Franklin", sans-serif;
             max-width: 507px;
             width: 100%;
-            
-                p:last-child {
-            
-                    color: gray;
+            margin: 0 0 54px 10px ;
+            }
+            span{
+                color: gray;
+            }
+
+            &__title{
+                max-width: 377px;
+                width: 100%;
+                display: flex;
+                gap:20px;
+                padding: 51px 0 109px 41px;
+                h3{
+                    margin: 25px 0 13px 0;
                 }
+                p{
+                    max-width: 272px;
+                    font-family: "IBM Plex Mono", monospace;
+                    color: gray;
+                    font-size: 13px;
+                }
+                
+            }
         }
-        
-    }
+}
+.title{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 54px;
 }
